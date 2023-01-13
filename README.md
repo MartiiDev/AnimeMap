@@ -9,4 +9,4 @@ Your help is more than welcomed if you want to add new animes to the list!
     - Obviously, you should give the name of the anime and of the city
     - The anime must take place in the city most of the time
 	- The city must be explicitly the same (no imaginated city looking like a real one)
-- If everything's good, [file a new issue](https://github.com/MartiiDev/AnimeMap/labels/enhancement) and I'll review it as soon as possible!
+- If everything's good, [file a new issue](/labels/enhancement) and I'll review it as soon as possible!
