@@ -8,5 +8,6 @@ Your help is more than welcomed if you want to add new animes to the list!
 - **Requirements:**
     - Obviously, you should give the name of the anime and of the city
     - The anime must take place in the city most of the time
-	- The city must be explicitly the same (no imaginated city looking like a real one)
+    - The city must be explicitly the same (no imaginated city looking like a real one)
+    - I only add the main media (if a series later has movies, I will only add the first season of the series)
 - If everything's good, [file a new issue](https://github.com/MartiiDev/AnimeMap/issues/new) and I'll review it as soon as possible!
