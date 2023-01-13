@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AnimeMap</title>
+
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+	<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+	<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="grid grid-cols-4 m-0 p-0 h-screen w-screen">
+
+	<div id="map" class="col-span-3">
+	</div>
+
+	<div class="col-start-4 p-3 bg-slate-200 shadow-2xl z-[999]">
+		<h1 class="text-bold text-2xl text-center mt-4 mb-8">Anime <i class="fa-solid fa-location-dot"></i> Map</h1>
+
+		<div class="flex flex-col space-y-4">
+			<span class="text-sm italic">
+				Only the city in which the majority of an anime takes place is listed.<br>
+				Hand-curated list, you can contribute on <a href="https://github.com/martiidev/animemap" target="_blank" class="underline hover:no-underline">GitHub</a>.
+			</span>
+			<form method="get" onsubmit="event.preventDefault();">
+				<input
+					type="search"
+					name="search"
+					id="search"
+					class="w-full p-2 border-1 border-slate-500 rounded-lg"
+					placeholder="Search places, animes..."
+					autocomplete="off"
+				>
+			</form>
+
+			<ul id="animeList" class="list-['–\0020'] list-inside space-y-1.5 pl-px">
+			</ul>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="list.js"></script>
+	<script type="text/javascript" src="assets/main.js"></script>
+
+</body>
+</html>
